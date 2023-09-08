@@ -109,5 +109,5 @@ print(f"scikit-learn version: {sklearn_version}")
 joblib_version = joblib.__version__
 print(f"joblib version: {joblib_version}")
 
-pip install -q streamlit
+
 
