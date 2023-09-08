@@ -19,8 +19,6 @@ tf1 = TfidfVectorizer()
 model_filename = 'svm_model.pkl'
 with open(model_filename, 'rb') as model_file:
     model = pickle.load(model_file)
-import nltk
-nltk.download('stopwords')
 
 stopwords = nltk.corpus.stopwords.words('english')
 
